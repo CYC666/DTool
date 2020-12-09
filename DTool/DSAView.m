@@ -83,7 +83,7 @@
         label.textAlignment = NSTextAlignmentCenter;
         label.textColor = [UIColor blackColor];
         label.font = [UIFont systemFontOfSize:16];
-        label.text = @"选择城市";
+        label.text = @"请选择";
         label.userInteractionEnabled = NO;
         [view addSubview:label];
     }
