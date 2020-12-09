@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183497152580BF7B006B226C /* DSAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183497142580BF7B006B226C /* DSAView.m */; };
+		187DA3A32580A2F2003A9E52 /* province_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 187DA3942580A2F2003A9E52 /* province_data.json */; };
 		18A7B58E257F767A00E30D5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7B58D257F767A00E30D5D /* AppDelegate.m */; };
 		18A7B591257F767A00E30D5D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7B590257F767A00E30D5D /* SceneDelegate.m */; };
 		18A7B594257F767A00E30D5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7B593257F767A00E30D5D /* ViewController.m */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183497132580BF7A006B226C /* DSAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAView.h; sourceTree = "<group>"; };
+		183497142580BF7B006B226C /* DSAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAView.m; sourceTree = "<group>"; };
+		187DA3942580A2F2003A9E52 /* province_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province_data.json; sourceTree = "<group>"; };
 		18A7B589257F767A00E30D5D /* DToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A7B58C257F767A00E30D5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18A7B58D257F767A00E30D5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +90,9 @@
 			children = (
 				18A7B5AA257F793800E30D5D /* DTool.h */,
 				18A7B5AB257F793800E30D5D /* DTool.m */,
+				183497132580BF7A006B226C /* DSAView.h */,
+				183497142580BF7B006B226C /* DSAView.m */,
+				187DA3942580A2F2003A9E52 /* province_data.json */,
 			);
 			path = DTool;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 			files = (
 				18A7B59C257F767C00E30D5D /* LaunchScreen.storyboard in Resources */,
 				18A7B599257F767C00E30D5D /* Assets.xcassets in Resources */,
+				187DA3A32580A2F2003A9E52 /* province_data.json in Resources */,
 				18A7B597257F767A00E30D5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A7B594257F767A00E30D5D /* ViewController.m in Sources */,
+				183497152580BF7B006B226C /* DSAView.m in Sources */,
 				18A7B58E257F767A00E30D5D /* AppDelegate.m in Sources */,
 				18A7B59F257F767C00E30D5D /* main.m in Sources */,
 				18A7B5AC257F793800E30D5D /* DTool.m in Sources */,
